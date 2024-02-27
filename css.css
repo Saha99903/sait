@@ -1,0 +1,53 @@
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+body {
+    background-color: #6d55c5;
+}
+
+P {
+    width: 900px;
+    height: 156px;
+    font-size: 20px;
+}
+
+a {
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.Anim:hover {
+    transform: translateY(-20px);
+}
+
+.Anim {
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.Animk:hover {
+    transform: translateY(-40px);
+}
+
+.Animk {
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
